@@ -45,11 +45,44 @@
             <button class="reg_btn">Registration</button></a
           >
         </div>
+        <img
+          onclick="togglerMenu()"
+          class="mob_menu_btn"
+          src="./assets/icons/menu.svg"
+          alt=""
+        />
       </div>
+      <div class="mob_menu_wrapper">
+        <div class="exit_menu">
+          <img onclick="togglerMenu()" src="./assets/icons/exit.svg" alt="" />
+        </div>
+        <div class="nav_menu">
+          <a href="./index.html"><p>Home</p></a>
+          <a href="./faq.html"><p>FAQ</p></a>
+          <a href="./contacts.html"><p>Contacts</p></a>
+        </div>
+        <div class="nav_actions">
+          <a href="./login.html">
+            <div class="login_nav">
+              <p>Login</p>
+            </div></a
+          >
+          <a href="./auth.html">
+            <button class="reg_btn">Registration</button></a
+          >
+        </div>
+      </div>
+      <script>
+        function togglerMenu() {
+          document
+            .querySelector(".mob_menu_wrapper")
+            .classList.toggle("visible_mob_menu_wrapper");
+        }
+      </script>
     </nav>
     <div class="main_wrapper container">
       <div class="left_column">
-        <img src="./assets/icons/header-logo.svg" alt="" />
+        <img class="header_title" src="./assets/icons/header-logo.svg" alt="" />
         <button class="cr_acc_btn">Create Account</button>
         <div class="ref_acgf">
           <div class="ref_items">

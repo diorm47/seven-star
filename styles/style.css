@@ -1327,3 +1327,185 @@ nav {
 .faq_item {
   margin-bottom: 14px;
 }
+
+.mob_menu_btn {
+  display: none;
+}
+/*  */
+.mob_menu_wrapper {
+  width: 100%;
+  height: 100vh;
+  background: #0c0b10;
+  position: fixed;
+  z-index: 1111;
+  left: 0;
+  top: 0;
+  padding: 25px 15px;
+  transition: all 0.4s ease;
+  transform: translateX(100%);
+}
+.visible_mob_menu_wrapper {
+  transition: all 0.4s ease;
+  transform: translateX(0);
+}
+.exit_menu {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-bottom: 30px;
+}
+.mob_menu_wrapper .nav_menu {
+  flex-direction: column;
+  padding: 50px 0;
+}
+.mob_menu_wrapper .nav_actions {
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 1400px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .contacts_page {
+    flex-direction: column;
+  }
+  .contacts_page .login_wrapper {
+    margin: 0 auto;
+  }
+  .faq_wrapper {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .faq_content {
+    width: 100%;
+  }
+  .faq_page {
+    padding-top: 30px;
+  }
+  .main_wrapper {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .left_column,
+  .center_column,
+  .right_column,
+  .oil_img {
+    width: 100%;
+    max-width: 500px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .login_page {
+    padding: 30px 0;
+  }
+  .footer_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  footer {
+    margin-top: 30px;
+    padding-bottom: 20px;
+  }
+  .login_page {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .login_container {
+    padding: 30px 20px;
+  }
+  .contacts_page {
+    padding-top: 0;
+  }
+  .nav_wrapper .nav_menu,
+  .nav_wrapper .nav_actions {
+    display: none;
+  }
+  .mob_menu_btn {
+    display: block;
+    margin-right: 10px;
+  }
+  .contacts_page {
+    gap: 30px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .contacts_list_wrapper {
+    flex-direction: column;
+  }
+  .contacts_list_wrapper a {
+    width: 100%;
+  }
+  .contacts_left h1,
+  .faq_title h1 {
+    font-size: 40px;
+    line-height: 130%;
+  }
+  .contacts_left h2,
+  .faq_title h2 {
+    font-size: 25px;
+    line-height: 130%;
+  }
+  br {
+    display: none;
+  }
+  .faq_item {
+    padding: 14px 20px;
+  }
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .left_column {
+    padding-top: 50px;
+  }
+  .left_column .header_title {
+    width: 80%;
+  }
+  .cr_acc_btn {
+    margin: 20px 0 30px;
+  }
+  .ref_acgf {
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+  }
+  .adv_first_card {
+    padding-left: 30px;
+    height: 120px;
+    margin-bottom: 20px;
+  }
+  .adv_card_sec {
+    width: 50%;
+    height: 230px;
+    padding-top: 20px;
+  }
+  .adv_cards_secondary {
+    gap: 20px;
+  }
+  .wind_img {
+    width: 100%;
+    top: -100px;
+  }
+  .rect_block {
+    width: 180px;
+    height: 220px;
+  }
+  .right_column {
+    padding-top: 30px;
+  }
+  .dest_block {
+    margin-bottom: 30px;
+  }
+  nav {
+    padding-top: 20px;
+  }
+  .tiers_list {
+    margin-top: 300px;
+  }
+}
