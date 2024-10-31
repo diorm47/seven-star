@@ -1,0 +1,91 @@
+<svg width="428.000000" height="148.000000" viewBox="0 0 428 148" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_33_2699_dd" x="-249.436340" y="-260.489746" width="783.110901" height="682.650391" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+			<feGaussianBlur stdDeviation="24.6582" result="effect_layerBlur_1"/>
+		</filter>
+		<linearGradient x1="315.652374" y1="74.199722" x2="456.152649" y2="74.199707" id="paint_linear_33_2662_0" gradientUnits="userSpaceOnUse">
+			<stop offset="0.064009" stop-color="#FFFFFF" stop-opacity="0.000000"/>
+			<stop offset="0.258526" stop-color="#FFFFFF" stop-opacity="0.800000"/>
+			<stop offset="0.486011" stop-color="#FFFFFF" stop-opacity="0.000000"/>
+			<stop offset="1.000000" stop-color="#FFFFFF" stop-opacity="0.000000"/>
+		</linearGradient>
+		<linearGradient x1="346.152527" y1="183.587357" x2="346.152527" y2="-32.412746" id="paint_linear_33_2662_1" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#202430"/>
+			<stop offset="0.525820" stop-color="#202430" stop-opacity="0.000000"/>
+			<stop offset="1.000000" stop-color="#202430"/>
+		</linearGradient>
+		<radialGradient gradientTransform="translate(126.517 -44.8505) rotate(119.591) scale(306.983 306.992)" cx="0.000000" cy="0.000000" r="1.000000" id="paint_radial_33_2699_0" gradientUnits="userSpaceOnUse">
+			<stop offset="0.409332" stop-color="#C1A875"/>
+			<stop offset="1.000000" stop-color="#000000" stop-opacity="0.000000"/>
+			<stop offset="1.000000" stop-color="#2D2E32" stop-opacity="0.000000"/>
+		</radialGradient>
+		<linearGradient x1="-8.524147" y1="21.741173" x2="93.649887" y2="-10.571793" id="paint_linear_33_2746_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#C1A875"/>
+			<stop offset="1.000000" stop-color="#FFFFFF" stop-opacity="0.000000"/>
+		</linearGradient>
+		<linearGradient x1="-10.943810" y1="105.534088" x2="125.400749" y2="158.544296" id="paint_linear_33_2747_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#C1A875"/>
+			<stop offset="1.000000" stop-color="#FFFFFF" stop-opacity="0.000000"/>
+		</linearGradient>
+	</defs>
+	<mask id="mask33_2660" mask-type="alpha" maskUnits="userSpaceOnUse" x="0.000000" y="0.000000" width="428.000000" height="148.000000">
+		<rect id="Rectangle 68" rx="30.000000" width="428.000000" height="148.000000" fill="#D9D9D9" fill-opacity="1.000000"/>
+	</mask>
+	<g mask="url(#mask33_2660)">
+		<g filter="url(#filter_33_2699_dd)" style="mix-blend-mode:screen">
+			<path id="Light greyish" d="M-175.47 -186.52C-146.52 -144.58 -42.22 22.64 177.46 100.32C385.06 173.72 433.26 154.53 459.7 269.53L-9.94 348.18L-175.47 -186.52Z" fill="url(#paint_radial_33_2699_0)" fill-opacity="0.300000" fill-rule="evenodd"/>
+		</g>
+		<circle id="Ellipse" r="0.750058" transform="matrix(-4.37114e-08 1 -1 -4.37114e-08 37.2885 64.3374)" fill="#C1A875" fill-opacity="0.150000"/>
+		<circle id="Ellipse" r="0.750058" transform="matrix(-4.37114e-08 1 -1 -4.37114e-08 31.2885 40.3374)" fill="#C1A875" fill-opacity="0.600000"/>
+		<circle id="Ellipse" r="0.750058" transform="matrix(-4.37114e-08 1 -1 -4.37114e-08 35.4808 146.308)" fill="#C1A875" fill-opacity="0.300000"/>
+		<circle id="Ellipse" r="1.124933" transform="matrix(-4.37114e-08 1 -1 -4.37114e-08 109.006 158.46)" fill="#C1A875" fill-opacity="0.300000"/>
+		<circle id="Ellipse" r="1.124933" transform="matrix(-4.37114e-08 1 -1 -4.37114e-08 122.687 108.772)" fill="#C1A875" fill-opacity="0.300000"/>
+		<circle id="Ellipse" r="1.124933" transform="matrix(-4.37114e-08 1 -1 -4.37114e-08 33.6633 89.9626)" fill="#C1A875" fill-opacity="0.150000"/>
+		<circle id="Ellipse" r="1.124933" transform="matrix(-4.37114e-08 1 -1 -4.37114e-08 134.663 139.963)" fill="#C1A875" fill-opacity="0.100000"/>
+		<circle id="Ellipse" r="1.124933" transform="matrix(-4.37114e-08 1 -1 -4.37114e-08 113.235 114.667)" fill="#C1A875" fill-opacity="0.150000"/>
+		<circle id="Ellipse" r="1.124933" transform="matrix(-4.37114e-08 1 -1 -4.37114e-08 60.8788 140.1)" fill="#C1A875" fill-opacity="0.100000"/>
+		<circle id="Ellipse" r="1.124933" transform="matrix(-4.37114e-08 1 -1 -4.37114e-08 45.9793 161.484)" fill="#C1A875" fill-opacity="0.300000"/>
+		<circle id="Ellipse" r="1.124933" transform="matrix(-4.37114e-08 1 -1 -4.37114e-08 12.6633 116.963)" fill="#C1A875" fill-opacity="0.700000"/>
+		<circle id="Ellipse" r="0.374874" transform="matrix(-4.37114e-08 1 -1 -4.37114e-08 151.913 0.712646)" fill="#C1A875" fill-opacity="0.150000"/>
+		<circle id="Ellipse" r="0.374874" transform="matrix(-4.37114e-08 1 -1 -4.37114e-08 134.89 34.7949)" fill="#C1A875" fill-opacity="0.300000"/>
+		<circle id="Ellipse" r="0.374874" transform="matrix(-4.37114e-08 1 -1 -4.37114e-08 105.542 -2.12085)" fill="#C1A875" fill-opacity="0.100000"/>
+		<circle id="Ellipse" r="0.374874" transform="matrix(-4.37114e-08 1 -1 -4.37114e-08 72.1304 86.3293)" fill="#C1A875" fill-opacity="0.300000"/>
+		<circle id="Ellipse" r="0.374874" transform="matrix(-4.37114e-08 1 -1 -4.37114e-08 123.152 3.97192)" fill="#C1A875" fill-opacity="0.600000"/>
+		<circle id="Ellipse" r="0.374874" transform="matrix(-4.37114e-08 1 -1 -4.37114e-08 127.995 111.257)" fill="#C1A875" fill-opacity="0.100000"/>
+		<circle id="Ellipse" r="0.374874" transform="matrix(-4.37114e-08 1 -1 -4.37114e-08 25.7039 122.476)" fill="#C1A875" fill-opacity="0.150000"/>
+		<circle id="Ellipse" r="0.374874" transform="matrix(-4.37114e-08 1 -1 -4.37114e-08 89.2629 111.673)" fill="#C1A875" fill-opacity="0.100000"/>
+		<circle id="Ellipse" r="0.374874" transform="matrix(-4.37114e-08 1 -1 -4.37114e-08 50.9133 -5.28735)" fill="#C1A875" fill-opacity="0.300000"/>
+		<circle id="Ellipse" r="0.374874" transform="matrix(-4.37114e-08 1 -1 -4.37114e-08 161.869 44.3933)" fill="#C1A875" fill-opacity="0.300000"/>
+		<circle id="Ellipse" r="0.374874" transform="matrix(-4.37114e-08 1 -1 -4.37114e-08 63.1555 47.8601)" fill="#C1A875" fill-opacity="0.700000"/>
+		<circle id="Ellipse" r="0.374874" transform="matrix(-4.37114e-08 1 -1 -4.37114e-08 77.9133 -17.2874)" fill="#C1A875" fill-opacity="0.150000"/>
+		<circle id="Ellipse" r="0.374874" transform="matrix(-4.37114e-08 1 -1 -4.37114e-08 80.9133 156.713)" fill="#C1A875" fill-opacity="0.100000"/>
+		<circle id="Ellipse" r="0.374874" transform="matrix(-4.37114e-08 1 -1 -4.37114e-08 103.179 134.912)" fill="#C1A875" fill-opacity="0.300000"/>
+		<circle id="Ellipse" r="0.374874" transform="matrix(-4.37114e-08 1 -1 -4.37114e-08 13.592 14.2708)" fill="#C1A875" fill-opacity="0.100000"/>
+		<circle id="Ellipse" r="0.374874" transform="matrix(-4.37114e-08 1 -1 -4.37114e-08 107.194 48.6924)" fill="#C1A875" fill-opacity="0.150000"/>
+		<circle id="Ellipse" r="0.374874" transform="matrix(-4.37114e-08 1 -1 -4.37114e-08 35.9133 128.713)" fill="#C1A875" fill-opacity="0.300000"/>
+		<circle id="Ellipse" r="0.374874" transform="matrix(-4.37114e-08 1 -1 -4.37114e-08 55.8056 48.7166)" fill="#C1A875" fill-opacity="0.100000"/>
+		<circle id="Ellipse" r="0.374874" transform="matrix(-4.37114e-08 1 -1 -4.37114e-08 60.3225 37.3743)" fill="#C1A875" fill-opacity="0.300000"/>
+		<circle id="Ellipse" r="0.374874" transform="matrix(-4.37114e-08 1 -1 -4.37114e-08 68.9133 158.713)" fill="#C1A875" fill-opacity="0.150000"/>
+		<circle id="Ellipse" r="0.374874" transform="matrix(-4.37114e-08 1 -1 -4.37114e-08 6.32458 60.22)" fill="#C1A875" fill-opacity="0.100000"/>
+		<circle id="Ellipse" r="0.374874" transform="matrix(-4.37114e-08 1 -1 -4.37114e-08 32.166 65.6238)" fill="#C1A875" fill-opacity="0.100000"/>
+		<circle id="Ellipse" r="0.374874" transform="matrix(-4.37114e-08 1 -1 -4.37114e-08 147.913 161.713)" fill="#C1A875" fill-opacity="0.300000"/>
+		<circle id="Ellipse" r="0.374874" transform="matrix(-4.37114e-08 1 -1 -4.37114e-08 8.70044 137.031)" fill="#C1A875" fill-opacity="0.100000"/>
+		<path id="Polygon" d="M28.03 -15.67L26.91 -16.32L26.91 -15.02L28.03 -15.67Z" fill="#C1A875" fill-opacity="0.600000" fill-rule="evenodd"/>
+		<circle id="Ellipse" r="0.374874" transform="matrix(-4.37114e-08 1 -1 -4.37114e-08 61.9133 115.713)" fill="#C1A875" fill-opacity="0.100000"/>
+		<path id="Polygon" d="M25.03 166.33L23.91 165.68L23.91 166.98L25.03 166.33Z" fill="#C1A875" fill-opacity="0.100000" fill-rule="evenodd"/>
+		<path id="Star" d="M6.57 165.58L5.98 165.42L5.82 164.83L5.66 165.42L5.07 165.58L5.66 165.74L5.82 166.33L5.98 165.74L6.57 165.58Z" fill="#C1A875" fill-opacity="0.100000" fill-rule="evenodd"/>
+		<path id="Star" d="M34.03 16.33L33.44 16.17L33.28 15.58L33.12 16.17L32.53 16.33L33.12 16.49L33.28 17.08L33.44 16.49L34.03 16.33Z" fill="#C1A875" fill-opacity="0.600000" fill-rule="evenodd"/>
+		<path id="Star" d="M65.96 73.13L65.37 72.97L65.21 72.38L65.05 72.97L64.46 73.13L65.05 73.29L65.21 73.88L65.37 73.29L65.96 73.13Z" fill="#C1A875" fill-opacity="0.100000" fill-rule="evenodd"/>
+		<path id="Star" d="M11.03 37.33L10.44 37.17L10.28 36.58L10.12 37.17L9.53 37.33L10.12 37.49L10.28 38.08L10.44 37.49L11.03 37.33Z" fill="#C1A875" fill-opacity="0.800000" fill-rule="evenodd"/>
+		<path id="Star" d="M119.61 47.71L119.02 47.55L118.86 46.96L118.7 47.55L118.11 47.71L118.7 47.87L118.86 48.46L119.02 47.87L119.61 47.71Z" fill="#C1A875" fill-opacity="0.150000" fill-rule="evenodd"/>
+		<path id="Star" d="M45.87 111.76L45.28 111.6L45.12 111.01L44.96 111.6L44.37 111.76L44.96 111.92L45.12 112.51L45.28 111.92L45.87 111.76Z" fill="#C1A875" fill-opacity="0.300000" fill-rule="evenodd"/>
+		<circle id="Ellipse" r="0.374874" transform="matrix(-4.37114e-08 1 -1 -4.37114e-08 54.9133 -15.2874)" fill="#C1A875" fill-opacity="0.300000"/>
+		<path id="Line 3" d="M121.73 -22.99C90.28 -14.49 20.87 12.23 -5.15 51.08" stroke="url(#paint_linear_33_2746_0)" stroke-opacity="0.150000" stroke-width="2.000000"/>
+		<path id="Line 1" d="M-8.36 105.98C16.63 106.22 78.89 123.99 128.09 193.12" stroke="url(#paint_linear_33_2747_0)" stroke-opacity="0.150000" stroke-width="2.000000"/>
+	</g>
+</svg>
