@@ -25,335 +25,338 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    <nav>
-      <div class="nav_wrapper container">
-        <a href="./index.html">
-          <img src="./assets/logo.svg" alt="" />
-        </a>
-        <div class="nav_menu">
-          <a href="./index.html"><p>Home</p></a>
-          <a href="./faq.html"><p>FAQ</p></a>
-          <a href="./contacts.html"><p>Contacts</p></a>
-        </div>
-        <div class="nav_actions">
-          <a href="./login.html">
-            <div class="login_nav">
-              <p>Login</p>
-            </div></a
-          >
-          <a href="./auth.html">
-            <button class="reg_btn">Registration</button></a
-          >
-        </div>
-        <img
-          onclick="togglerMenu()"
-          class="mob_menu_btn"
-          src="./assets/icons/menu.svg"
-          alt=""
-        />
-      </div>
-      <div class="mob_menu_wrapper">
-        <div class="exit_menu">
-          <img onclick="togglerMenu()" src="./assets/icons/exit.svg" alt="" />
-        </div>
-        <div class="nav_menu">
-          <a href="./index.html"><p>Home</p></a>
-          <a href="./faq.html"><p>FAQ</p></a>
-          <a href="./contacts.html"><p>Contacts</p></a>
-        </div>
-        <div class="nav_actions">
-          <a href="./login.html">
-            <div class="login_nav">
-              <p>Login</p>
-            </div></a
-          >
-          <a href="./auth.html">
-            <button class="reg_btn">Registration</button></a
-          >
-        </div>
-      </div>
-      <script>
-        function togglerMenu() {
-          document
-            .querySelector(".mob_menu_wrapper")
-            .classList.toggle("visible_mob_menu_wrapper");
-        }
-      </script>
-    </nav>
-    <div class="main_wrapper container">
-      <div class="left_column">
-        <img class="header_title" src="./assets/icons/header-logo.svg" alt="" />
-        <button class="cr_acc_btn">Create Account</button>
-        <div class="ref_acgf">
-          <div class="ref_items">
-            <h4>Referral Program</h4>
-            <div class="ref_items_wrapper">
-              <div class="ref_item ref_item_first">
-                <h3>3</h3>
-                <h5>%</h5>
-                <p>Level 1</p>
-              </div>
-              <div class="ref_item ref_item_second">
-                <h3>1</h3>
-                <h5>%</h5>
-                <p>Level 2</p>
-              </div>
-            </div>
+    <div class="page_content">
+      <img class="rays" src="./assets/rays.svg" alt="">
+      <nav>
+        <div class="nav_wrapper container">
+          <a href="./index.html">
+            <img src="./assets/logo.svg" alt="" />
+          </a>
+          <div class="nav_menu">
+            <a href="./index.html"><p>Home</p></a>
+            <a href="./faq.html"><p>FAQ</p></a>
+            <a href="./contacts.html"><p>Contacts</p></a>
           </div>
-          <img src="./assets/icons/ascept.svg" alt="" />
-        </div>
-        <div class="adv_cards">
-          <div class="adv_card adv_first_card">
-            <img src="./assets/icons/adv-1-icon.svg" alt="" />
-            <div class="adv_desc">
-              <p>Faster</p>
-              <span
-                >Lorem ipsum dolor sit <br />
-                amet consectetur.</span
-              >
-            </div>
+          <div class="nav_actions">
+            <a href="./login.html">
+              <div class="login_nav">
+                <p>Login</p>
+              </div></a
+            >
+            <a href="./auth.html">
+              <button class="reg_btn">Registration</button></a
+            >
           </div>
-          <div class="adv_cards_secondary">
-            <div class="adv_card adv_card_sec">
-              <img src="./assets/icons/adv-2-icon.svg" alt="" />
-              <div class="adv_desc">
-                <p>Security</p>
-                <span>Lorem ipsum dolor sit amet consectetur.</span>
-              </div>
-            </div>
-            <div class="adv_card adv_card_sec">
-              <img src="./assets/icons/adv-3-icon.svg" alt="" />
-              <div class="adv_desc">
-                <p>Lorem</p>
-                <span>Lorem ipsum dolor sit amet consectetur.</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="center_column">
-        <img class="oil_img" src="./assets/images/oil.png" alt="" />
-        <div class="rect_block"></div>
-        <img class="wind_img" src="./assets/images/wind.svg" alt="" />
-        <div class="tiers_list">
-          <div
-            class="tiers_list_item tiers_list_item_active"
-            onclick="selectTierMain(this)"
-          >
-            <p>Tier 1</p>
-            <img src="./assets/icons/selected.svg" alt="selected" />
-          </div>
-          <div class="tiers_list_item" onclick="selectTierMain(this)">
-            <p>Tier 2</p>
-            <img src="./assets/icons/selected.svg" alt="selected" />
-          </div>
-        </div>
-
-        <div class="daily_block">
-          <div class="daily_block_percent">
-            <p>1.1 <span>%</span></p>
-          </div>
-          <div class="period_block">
-            <p class="main_text">Period</p>
-            <h3>14 days</h3>
-            <div class="per_term">
-              <img src="./assets/icons/info.svg" alt="" />
-              <p class="main_text">Accrual at the end of the term</p>
-            </div>
-          </div>
-          <div class="min_max">
-            <div class="min_max_card">
-              <img src="./assets/icons/min.svg" alt="" />
-              <p class="main_text">Minimum</p>
-              <h4>$50</h4>
-            </div>
-            <div class="min_max_card">
-              <img src="./assets/icons/max.svg" alt="" />
-              <p class="main_text">Maximum</p>
-              <h4>$4999</h4>
-            </div>
-          </div>
-          <button class="open_dep">Open Deposit</button>
-        </div>
-        <div class="center_stats">
-          <div class="center_stats_top">
-            <div class="center_stats_top_item">
-              <p class="main_text">Days Online</p>
-              <h4>183</h4>
-            </div>
-            <div class="stat_line"></div>
-            <div class="center_stats_top_item">
-              <p class="main_text">Total Members</p>
-              <h4>5,249</h4>
-            </div>
-          </div>
-          <div class="stats_cards">
-            <div class="stats_card">
-              <p class="main_text">Lorem</p>
-              <h4>49</h4>
-            </div>
-            <div class="stats_card">
-              <p class="main_text">Lorem</p>
-              <h4>49</h4>
-            </div>
-            <div class="stats_card">
-              <p class="main_text">Total Deposit</p>
-              <h4>$45,249.51</h4>
-            </div>
-            <div class="stats_card">
-              <p class="main_text">Total Withdrawal</p>
-              <h4>$450,249.51</h4>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="right_column">
-        <div class="dest_block">
           <img
-            class="dest_block_line"
-            src="./assets/icons/dest-line.svg"
+            onclick="togglerMenu()"
+            class="mob_menu_btn"
+            src="./assets/icons/menu.svg"
             alt=""
           />
-          <div class="dest_block_content">
-            <div class="dest_block_title">
-              <img src="./assets/icons/dest-arrow.svg" alt="" />
-              <h3>Our Destinations</h3>
-            </div>
-            <p>
-              Liquid Gas <br />
-              Petroleum<br />
-              Wind Power<br />
-              Electricity<br />
-            </p>
+        </div>
+        <div class="mob_menu_wrapper">
+          <div class="exit_menu">
+            <img onclick="togglerMenu()" src="./assets/icons/exit.svg" alt="" />
+          </div>
+          <div class="nav_menu">
+            <a href="./index.html"><p>Home</p></a>
+            <a href="./faq.html"><p>FAQ</p></a>
+            <a href="./contacts.html"><p>Contacts</p></a>
+          </div>
+          <div class="nav_actions">
+            <a href="./login.html">
+              <div class="login_nav">
+                <p>Login</p>
+              </div></a
+            >
+            <a href="./auth.html">
+              <button class="reg_btn">Registration</button></a
+            >
           </div>
         </div>
-        <div class="live_depos">
-          <div class="live_depos_title">
-            <img src="./assets/icons/live.svg" alt="" />
-            <p><span>Live Last Deposits</span> / <span>Withdrawal</span></p>
+        <script>
+          function togglerMenu() {
+            document
+              .querySelector(".mob_menu_wrapper")
+              .classList.toggle("visible_mob_menu_wrapper");
+          }
+        </script>
+      </nav>
+      <div class="main_wrapper container">
+        <div class="left_column">
+          <img
+            class="header_title"
+            src="./assets/icons/header-logo.svg"
+            alt=""
+          />
+          <button class="cr_acc_btn">Create Account</button>
+          <div class="ref_acgf">
+            <div class="ref_items">
+              <h4>Referral Program</h4>
+              <div class="ref_items_wrapper">
+                <div class="ref_item ref_item_first">
+                  <h3>3</h3>
+                  <h5>%</h5>
+                  <p>Level 1</p>
+                </div>
+                <div class="ref_item ref_item_second">
+                  <h3>1</h3>
+                  <h5>%</h5>
+                  <p>Level 2</p>
+                </div>
+              </div>
+            </div>
+            <img src="./assets/icons/ascept.svg" alt="" />
           </div>
-          <div class="depo_items_list">
-            <div class="depo_item">
-              <img src="./assets/icons/tarns/Bitcoin Coin.svg" alt="" />
-              <div class="depo_item_content">
-                <div class="depo_item_content_left">
-                  <div class="depo_item_type">
-                    <img src="./assets/icons/width.svg" alt="" />
-                    <p>Withdrawal</p>
-                  </div>
-                  <h4>$521.00</h4>
-                </div>
-                <p class="main_text">4m ago</p>
+          <div class="adv_cards">
+            <div class="adv_card adv_first_card">
+              <img src="./assets/icons/adv-1-icon.svg" alt="" />
+              <div class="adv_desc">
+                <p>Faster</p>
+                <span
+                  >Lorem ipsum dolor sit <br />
+                  amet consectetur.</span
+                >
               </div>
             </div>
-            <div class="depo_item">
-              <img src="./assets/icons/tarns/Litecoin Coin.svg" alt="" />
-              <div class="depo_item_content">
-                <div class="depo_item_content_left">
-                  <div class="depo_item_type">
-                    <img src="./assets/icons/width.svg" alt="" />
-                    <p>Withdrawal</p>
-                  </div>
-                  <h4>$521.00</h4>
+            <div class="adv_cards_secondary">
+              <div class="adv_card adv_card_sec">
+                <img src="./assets/icons/adv-2-icon.svg" alt="" />
+                <div class="adv_desc">
+                  <p>Security</p>
+                  <span>Lorem ipsum dolor sit amet consectetur.</span>
                 </div>
-                <p class="main_text">4m ago</p>
               </div>
-            </div>
-            <div class="depo_item">
-              <img src="./assets/icons/tarns/Tether.svg" alt="" />
-              <div class="depo_item_content">
-                <div class="depo_item_content_left">
-                  <div class="depo_item_type">
-                    <img src="./assets/icons/width.svg" alt="" />
-                    <p>Withdrawal</p>
-                  </div>
-                  <h4>$521.00</h4>
+              <div class="adv_card adv_card_sec">
+                <img src="./assets/icons/adv-3-icon.svg" alt="" />
+                <div class="adv_desc">
+                  <p>Lorem</p>
+                  <span>Lorem ipsum dolor sit amet consectetur.</span>
                 </div>
-                <p class="main_text">4m ago</p>
-              </div>
-            </div>
-            <div class="depo_item">
-              <img src="./assets/icons/tarns/BNB Chain.svg" alt="" />
-              <div class="depo_item_content">
-                <div class="depo_item_content_left">
-                  <div class="depo_item_type">
-                    <img src="./assets/icons/width.svg" alt="" />
-                    <p>Withdrawal</p>
-                  </div>
-                  <h4>$521.00</h4>
-                </div>
-                <p class="main_text">4m ago</p>
-              </div>
-            </div>
-            <div class="depo_item">
-              <img src="./assets/icons/tarns/Ethereum Coin.svg" alt="" />
-              <div class="depo_item_content">
-                <div class="depo_item_content_left">
-                  <div class="depo_item_type">
-                    <img src="./assets/icons/width.svg" alt="" />
-                    <p>Withdrawal</p>
-                  </div>
-                  <h4>$521.00</h4>
-                </div>
-                <p class="main_text">4m ago</p>
               </div>
             </div>
           </div>
         </div>
-        <div class="calculator_blog">
-          <div class="calculator_blog_wrapper">
-            <div class="calculator_blog_title">
-              <h3>Calculator</h3>
+        <div class="center_column">
+          <img class="oil_img" src="./assets/images/oil.png" alt="" />
+          <div class="rect_block"></div>
+          <img class="wind_img" src="./assets/images/wind.svg" alt="" />
+          <div class="tiers_list">
+            <div
+              class="tiers_list_item tiers_list_item_active"
+              onclick="selectTierMain(this)"
+            >
+              <p>Tier 1</p>
+              <img src="./assets/icons/selected.svg" alt="selected" />
             </div>
-            <div class="calc_select" onclick="toggleDropdown(event)">
-              <p id="selectedTier">Tier 1</p>
-              <img src="./assets/icons/arrow-down.svg" alt="arrow" />
-              <div class="dropdown" id="tierDropdown" style="display: none">
-                <p onclick="selectTier('Tier 1')">Tier 1</p>
-                <p onclick="selectTier('Tier 2')">Tier 2</p>
-              </div>
+            <div class="tiers_list_item" onclick="selectTierMain(this)">
+              <p>Tier 2</p>
+              <img src="./assets/icons/selected.svg" alt="selected" />
             </div>
+          </div>
 
-            <div class="calc_amount">
-              <input type="text" placeholder="Enter amount" />
-              <div class="select_crypto">
-                <img src="./assets/icons/btv.svg" alt="" />
-                <p class="main_text">BTC</p>
-                <img src="./assets/icons/arrow-down.svg" alt="" />
+          <div class="daily_block">
+            <div class="daily_block_percent">
+              <p>1.1 <span>%</span></p>
+            </div>
+            <div class="period_block">
+              <p class="main_text">Period</p>
+              <h3>14 days</h3>
+              <div class="per_term">
+                <img src="./assets/icons/info.svg" alt="" />
+                <p class="main_text">Accrual at the end of the term</p>
               </div>
             </div>
-            <div class="calc_total">
-              <h5>Total Profit:</h5>
-              <div class="calc_total_value">
-                <img src="./assets/icons/nearly.svg" alt="" />
-                <p class="main_text">1 BTC = $68383,29</p>
+            <div class="min_max">
+              <div class="min_max_card">
+                <img src="./assets/icons/min.svg" alt="" />
+                <p class="main_text">Minimum</p>
+                <h4>$50</h4>
+              </div>
+              <div class="min_max_card">
+                <img src="./assets/icons/max.svg" alt="" />
+                <p class="main_text">Maximum</p>
+                <h4>$4999</h4>
+              </div>
+            </div>
+            <button class="open_dep">Open Deposit</button>
+          </div>
+          <div class="center_stats">
+            <div class="center_stats_top">
+              <div class="center_stats_top_item">
+                <p class="main_text">Days Online</p>
+                <h4>183</h4>
+              </div>
+              <div class="stat_line"></div>
+              <div class="center_stats_top_item">
+                <p class="main_text">Total Members</p>
+                <h4>5,249</h4>
+              </div>
+            </div>
+            <div class="stats_cards">
+              <div class="stats_card">
+                <p class="main_text">Lorem</p>
+                <h4>49</h4>
+              </div>
+              <div class="stats_card">
+                <p class="main_text">Lorem</p>
+                <h4>49</h4>
+              </div>
+              <div class="stats_card">
+                <p class="main_text">Total Deposit</p>
+                <h4>$45,249.51</h4>
+              </div>
+              <div class="stats_card">
+                <p class="main_text">Total Withdrawal</p>
+                <h4>$450,249.51</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right_column">
+          <div class="dest_block">
+            <img
+              class="dest_block_line"
+              src="./assets/icons/dest-line.svg"
+              alt=""
+            />
+            <div class="dest_block_content">
+              <div class="dest_block_title">
+                <img src="./assets/icons/dest-arrow.svg" alt="" />
+                <h3>Our Destinations</h3>
+              </div>
+              <p>
+                Liquid Gas <br />
+                Petroleum<br />
+                Wind Power<br />
+                Electricity<br />
+              </p>
+            </div>
+          </div>
+          <div class="live_depos">
+            <div class="live_depos_title">
+              <img src="./assets/icons/live.svg" alt="" />
+              <p><span>Live Last Deposits</span> / <span>Withdrawal</span></p>
+            </div>
+            <div class="depo_items_list">
+              <div class="depo_item">
+                <img src="./assets/icons/tarns/Bitcoin Coin.svg" alt="" />
+                <div class="depo_item_content">
+                  <div class="depo_item_content_left">
+                    <div class="depo_item_type">
+                      <img src="./assets/icons/width.svg" alt="" />
+                      <p>Withdrawal</p>
+                    </div>
+                    <h4>$521.00</h4>
+                  </div>
+                  <p class="main_text">4m ago</p>
+                </div>
+              </div>
+              <div class="depo_item">
+                <img src="./assets/icons/tarns/Litecoin Coin.svg" alt="" />
+                <div class="depo_item_content">
+                  <div class="depo_item_content_left">
+                    <div class="depo_item_type">
+                      <img src="./assets/icons/width.svg" alt="" />
+                      <p>Withdrawal</p>
+                    </div>
+                    <h4>$521.00</h4>
+                  </div>
+                  <p class="main_text">4m ago</p>
+                </div>
+              </div>
+              <div class="depo_item">
+                <img src="./assets/icons/tarns/Tether.svg" alt="" />
+                <div class="depo_item_content">
+                  <div class="depo_item_content_left">
+                    <div class="depo_item_type">
+                      <img src="./assets/icons/width.svg" alt="" />
+                      <p>Withdrawal</p>
+                    </div>
+                    <h4>$521.00</h4>
+                  </div>
+                  <p class="main_text">4m ago</p>
+                </div>
+              </div>
+              <div class="depo_item">
+                <img src="./assets/icons/tarns/BNB Chain.svg" alt="" />
+                <div class="depo_item_content">
+                  <div class="depo_item_content_left">
+                    <div class="depo_item_type">
+                      <img src="./assets/icons/width.svg" alt="" />
+                      <p>Withdrawal</p>
+                    </div>
+                    <h4>$521.00</h4>
+                  </div>
+                  <p class="main_text">4m ago</p>
+                </div>
+              </div>
+              <div class="depo_item">
+                <img src="./assets/icons/tarns/Ethereum Coin.svg" alt="" />
+                <div class="depo_item_content">
+                  <div class="depo_item_content_left">
+                    <div class="depo_item_type">
+                      <img src="./assets/icons/width.svg" alt="" />
+                      <p>Withdrawal</p>
+                    </div>
+                    <h4>$521.00</h4>
+                  </div>
+                  <p class="main_text">4m ago</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="calculator_blog">
+            <div class="calculator_blog_wrapper">
+              <div class="calculator_blog_title">
+                <h3>Calculator</h3>
+              </div>
+              <div class="calc_select" onclick="toggleDropdown(event)">
+                <p id="selectedTier">Tier 1</p>
+                <img src="./assets/icons/arrow-down.svg" alt="arrow" />
+                <div class="dropdown" id="tierDropdown" style="display: none">
+                  <p onclick="selectTier('Tier 1')">Tier 1</p>
+                  <p onclick="selectTier('Tier 2')">Tier 2</p>
+                </div>
+              </div>
+
+              <div class="calc_amount">
+                <input type="text" placeholder="Enter amount" />
+                <div class="select_crypto">
+                  <img src="./assets/icons/btv.svg" alt="" />
+                  <p class="main_text">BTC</p>
+                  <img src="./assets/icons/arrow-down.svg" alt="" />
+                </div>
+              </div>
+              <div class="calc_total">
+                <h5>Total Profit:</h5>
+                <div class="calc_total_value">
+                  <img src="./assets/icons/nearly.svg" alt="" />
+                  <p class="main_text">1 BTC = $68383,29</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="items">
-      <p>1</p>
-      <p>2</p>
-      <p>3</p>
+
+      <footer>
+        <div class="footer_wrapper container">
+          <div class="footer_socials">
+            <a href="#"><img src="./assets/icons/x.svg" alt="" /></a>
+            <a href="#"><img src="./assets/icons/youtube.svg" alt="" /></a>
+            <a href="#"><img src="./assets/icons/tg.svg" alt="" /></a>
+          </div>
+          <p class="main_text">Copyright ©2024 7star. All rights reserved.</p>
+          <a href="mailto:7star.support@gmail.com">
+            <div class="footer_email">
+              <p>7star.support@gmail.com</p>
+            </div></a
+          >
+        </div>
+      </footer>
     </div>
 
-    <footer>
-      <div class="footer_wrapper container">
-        <div class="footer_socials">
-          <a href="#"><img src="./assets/icons/x.svg" alt="" /></a>
-          <a href="#"><img src="./assets/icons/youtube.svg" alt="" /></a>
-          <a href="#"><img src="./assets/icons/tg.svg" alt="" /></a>
-        </div>
-        <p class="main_text">Copyright ©2024 7star. All rights reserved.</p>
-        <a href="mailto:7star.support@gmail.com">
-          <div class="footer_email">
-            <p>7star.support@gmail.com</p>
-          </div></a
-        >
-      </div>
-    </footer>
     <script>
       // Открытие и закрытие выпадающего списка
       function toggleDropdown(event) {
@@ -379,8 +382,6 @@
           dropdown.style.display = "none";
         }
       });
-
-
 
       // выбор 2
       function selectTierMain(selectedItem) {
