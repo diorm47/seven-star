@@ -16,10 +16,14 @@
 }
 body {
   font-family: "Montserrat", sans-serif;
-  background: url(../assets/images/stars.svg), #0c0b10;
-  background-size: cover;
-}
+  background: #0c0b10;
 
+}
+.page_content_wrapper {
+  background-size: cover;
+  position: relative;
+  background:  url(../assets/images/stars.svg);
+}
 a {
   text-decoration: none;
 }
@@ -43,12 +47,18 @@ nav {
 .page_content {
   width: 100%;
   position: relative;
+  background: radial-gradient(
+    57% 42% at 50% 1%,
+    rgba(11, 11, 16, 0) 28.811%,
+    rgb(11, 11, 16) 100%
+  );
 }
 
 .rays {
   position: absolute;
   left: -10%;
-  top: -35%;
+  top: -70%;
+  width: 110%;
 }
 .nav_wrapper {
   display: flex;
@@ -896,6 +906,7 @@ footer {
   top: 150px;
   width: 150%;
   z-index: 1;
+
 }
 .wind_img {
   position: absolute;
@@ -1459,7 +1470,7 @@ nav {
   }
 
   .right_column {
-    order: 2; 
+    order: 2;
   }
 }
 
@@ -1592,4 +1603,13 @@ nav {
   .user_data .login_input {
     width: 100%;
   }
+  .rays {
+    top: -20%;
+  }
+  .page_content {
+    width: 100%;
+    position: relative;
+    background: radial-gradient(57% 42% at 50% 1%, rgba(11, 11, 16, 0) -82.189%, rgb(11, 11, 16) 100%);
+}
+
 }
