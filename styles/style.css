@@ -215,7 +215,7 @@ nav {
   bottom: 7px;
 }
 
-.ref_item_second h3 {
+.ref_item h3 {
   color: rgb(71, 77, 89);
   font-family: Halvar Breitschrift500;
   font-size: 49px;
@@ -346,6 +346,9 @@ nav {
   align-items: center;
   cursor: pointer;
 }
+.tiers_list_item img {
+  display: none;
+}
 
 .tiers_list_item p {
   color: rgb(158, 172, 188);
@@ -372,6 +375,9 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding-right: 17px;
+}
+.tiers_list_item_active img {
+  display: block;
 }
 .daily_block {
   width: 100%;
@@ -659,6 +665,12 @@ nav {
   line-height: 20px;
   letter-spacing: 0%;
   text-align: left;
+}
+.live_depos_title span {
+  cursor: pointer;
+}
+.live_depos_title span:hover {
+  font-weight: 600;
 }
 
 .depo_item {
@@ -1362,6 +1374,36 @@ nav {
   flex-direction: column;
 }
 
+.calc_select {
+  position: relative;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: rgb(11, 11, 16);
+  border: 1px solid rgb(39, 45, 63);
+  width: 100%;
+  display: none;
+  border-radius: 9px;
+  overflow: hidden;
+  max-width: 130px;
+}
+
+.dropdown p {
+  padding: 12px 22px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.dropdown p:hover {
+  background: rgb(30, 30, 43);
+}
+
 @media only screen and (max-width: 1400px) {
   .container {
     padding-left: 20px;
@@ -1395,6 +1437,17 @@ nav {
   .oil_img {
     width: 100%;
     max-width: 500px;
+  }
+  .left_column {
+    order: 3;
+  }
+
+  .center_column {
+    order: 1;
+  }
+
+  .right_column {
+    order: 2; 
   }
 }
 
@@ -1521,10 +1574,10 @@ nav {
     padding: 15px;
   }
   .user_data {
-    flex-direction: column;   gap: 0;
+    flex-direction: column;
+    gap: 0;
   }
   .user_data .login_input {
     width: 100%;
- 
   }
 }
