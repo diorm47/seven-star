@@ -25,363 +25,433 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    <nav>
-      <div class="nav_wrapper container">
-        <a href="./index.html">
-          <img src="./assets/logo.svg" alt="" />
-        </a>
-        <div class="nav_menu nav_menu_secondary">
-          <a href="./index.html"><p>Home</p></a>
-          <a class="active_menu" href="./faq.html"><p>FAQ</p></a>
-          <a href="./contacts.html"><p>Contacts</p></a>
-        </div>
-        <div class="nav_actions">
-          <a href="./login.html">
-            <div class="login_nav">
-              <p>Login</p>
-            </div></a
-          >
-          <a href="./auth.html">
-            <button class="reg_btn">Registration</button></a
-          >
-        </div>
-        <img
-          onclick="togglerMenu()"
-          class="mob_menu_btn"
-          src="./assets/icons/menu.svg"
-          alt=""
-        />
-      </div>
-      <div class="mob_menu_wrapper">
-        <div class="exit_menu">
-          <img onclick="togglerMenu()" src="./assets/icons/exit.svg" alt="" />
-        </div>
-        <div class="nav_menu nav_menu_secondary">
-          <a href="./index.html"><p>Home</p></a>
-          <a class="active_menu" href="./faq.html"><p>FAQ</p></a>
-          <a href="./contacts.html"><p>Contacts</p></a>
-        </div>
-        <div class="nav_actions">
-          <a href="./login.html">
-            <div class="login_nav">
-              <p>Login</p>
-            </div></a
-          >
-          <a href="./auth.html">
-            <button class="reg_btn">Registration</button></a
-          >
-        </div>
-      </div>
-      <script>
-        function togglerMenu() {
-          document
-            .querySelector(".mob_menu_wrapper")
-            .classList.toggle("visible_mob_menu_wrapper");
-        }
-      </script>
-    </nav>
-    <div class="faq_page container">
-      <div class="faq_title">
-        <h1>Pipe FAQs</h1>
-        <h2>
-          Your questions <br />
-          answered
-        </h2>
-      </div>
-      <div class="faq_wrapper">
-        <div class="faq_menu">
-          <div class="faq_menu_item faq_menu_item_active">
-            <p>General</p>
+    <img class="rays" src="./assets/rays.svg" alt="" />
+    <div class="oil_wind_collection">
+      <img class="oil_img" src="./assets/images/oil.png" alt="" />
+      <div class="rect_block"></div>
+      <img class="wind_img" src="./assets/images/wind.svg" alt="" />
+    </div>
+    <div class="page_content">
+      <div class="page_content_wrapper">
+        <nav>
+          <div class="nav_wrapper container">
+            <a href="./index.html">
+              <img src="./assets/logo.svg" alt="" />
+            </a>
+            <div class="nav_menu nav_menu_secondary">
+              <a href="./index.html"><p>Home</p></a>
+              <a class="active_menu" href="./faq.html"><p>FAQ</p></a>
+              <a href="./contacts.html"><p>Contacts</p></a>
+            </div>
+            <div class="nav_actions">
+              <a href="./login.html">
+                <div class="login_nav">
+                  <p>Login</p>
+                </div></a
+              >
+              <a href="./auth.html">
+                <button class="reg_btn">Registration</button></a
+              >
+            </div>
+            <img
+              onclick="togglerMenu()"
+              class="mob_menu_btn"
+              src="./assets/icons/menu.svg"
+              alt=""
+            />
           </div>
-          <div class="faq_menu_item">
-            <p>Onboarding</p>
-          </div>
-        </div>
-        <div class="faq_content">
-          <div class="faq_content_title">
-            <h3>General</h3>
-          </div>
-          <div class="faq_item">
-            <div class="faq_item_title">
-              <h4>What is seven star?</h4>
-              <img class="open_faq_btn" src="./assets/icons/plus.svg" alt="" />
+          <div class="mob_menu_wrapper">
+            <div class="exit_menu">
               <img
-                class="close_faq_btn"
-                src="./assets/icons/minus.svg"
+                onclick="togglerMenu()"
+                src="./assets/icons/exit.svg"
                 alt=""
               />
             </div>
-            <div class="faq_item_content">
-              <p>
-                Seven Star offers a variety of investment options, including
-                stocks, bonds, mutual funds, real estate, and retirement
-                accounts.
-              </p>
+            <div class="nav_menu nav_menu_secondary">
+              <a href="./index.html"><p>Home</p></a>
+              <a class="active_menu" href="./faq.html"><p>FAQ</p></a>
+              <a href="./contacts.html"><p>Contacts</p></a>
+            </div>
+            <div class="nav_actions">
+              <a href="./login.html">
+                <div class="login_nav">
+                  <p>Login</p>
+                </div></a
+              >
+              <a href="./auth.html">
+                <button class="reg_btn">Registration</button></a
+              >
             </div>
           </div>
-          <div class="faq_item">
-            <div class="faq_item_title">
-              <h4>What investment options does Seven star offer?</h4>
-              <img class="open_faq_btn" src="./assets/icons/plus.svg" alt="" />
-              <img
-                class="close_faq_btn"
-                src="./assets/icons/minus.svg"
-                alt=""
-              />
-            </div>
-            <div class="faq_item_content">
-              <p>
-                Seven Star offers a variety of investment options, including
-                stocks, bonds, mutual funds, real estate, and retirement
-                accounts.
-              </p>
-            </div>
+          <script>
+            function togglerMenu() {
+              document
+                .querySelector(".mob_menu_wrapper")
+                .classList.toggle("visible_mob_menu_wrapper");
+            }
+          </script>
+        </nav>
+        <div class="faq_page container">
+          <div class="faq_title">
+            <h1>Pipe FAQs</h1>
+            <h2>
+              Your questions <br />
+              answered
+            </h2>
           </div>
-          <div class="faq_item">
-            <div class="faq_item_title">
-              <h4>
-                How does Seven star ensure the security of my investments?
-              </h4>
-              <img class="open_faq_btn" src="./assets/icons/plus.svg" alt="" />
-              <img
-                class="close_faq_btn"
-                src="./assets/icons/minus.svg"
-                alt=""
-              />
+          <div class="faq_wrapper">
+            <div class="faq_menu">
+              <div class="faq_menu_item faq_menu_item_active">
+                <p>General</p>
+              </div>
+              <div class="faq_menu_item">
+                <p>Onboarding</p>
+              </div>
             </div>
-            <div class="faq_item_content">
-              <p>
-                Seven Star offers a variety of investment options, including
-                stocks, bonds, mutual funds, real estate, and retirement
-                accounts.
-              </p>
-            </div>
-          </div>
-          <div class="faq_item">
-            <div class="faq_item_title">
-              <h4>
-                What sets Seven star apart from other investment companies?
-              </h4>
-              <img class="open_faq_btn" src="./assets/icons/plus.svg" alt="" />
-              <img
-                class="close_faq_btn"
-                src="./assets/icons/minus.svg"
-                alt=""
-              />
-            </div>
-            <div class="faq_item_content">
-              <p>
-                Seven Star offers a variety of investment options, including
-                stocks, bonds, mutual funds, real estate, and retirement
-                accounts.
-              </p>
-            </div>
-          </div>
-          <div class="faq_item">
-            <div class="faq_item_title">
-              <h4>
-                How can I track the performance of my investments with Seven
-                star?
-              </h4>
-              <img class="open_faq_btn" src="./assets/icons/plus.svg" alt="" />
-              <img
-                class="close_faq_btn"
-                src="./assets/icons/minus.svg"
-                alt=""
-              />
-            </div>
-            <div class="faq_item_content">
-              <p>
-                Seven Star offers a variety of investment options, including
-                stocks, bonds, mutual funds, real estate, and retirement
-                accounts.
-              </p>
-            </div>
-          </div>
-          <div class="faq_item">
-            <div class="faq_item_title">
-              <h4>
-                What support and assistance can I expect from Seven star as an
-                investor?
-              </h4>
-              <img class="open_faq_btn" src="./assets/icons/plus.svg" alt="" />
-              <img
-                class="close_faq_btn"
-                src="./assets/icons/minus.svg"
-                alt=""
-              />
-            </div>
-            <div class="faq_item_content">
-              <p>
-                Seven Star offers a variety of investment options, including
-                stocks, bonds, mutual funds, real estate, and retirement
-                accounts.
-              </p>
-            </div>
-          </div>
-          <div class="faq_item">
-            <div class="faq_item_title">
-              <h4>
-                What are the key factors to consider before investing with Seven
-                star?
-              </h4>
-              <img class="open_faq_btn" src="./assets/icons/plus.svg" alt="" />
-              <img
-                class="close_faq_btn"
-                src="./assets/icons/minus.svg"
-                alt=""
-              />
-            </div>
-            <div class="faq_item_content">
-              <p>
-                Seven Star offers a variety of investment options, including
-                stocks, bonds, mutual funds, real estate, and retirement
-                accounts.
-              </p>
-            </div>
-          </div>
+            <div class="faq_content">
+              <div class="faq_content_title">
+                <h3>General</h3>
+              </div>
+              <div class="faq_item">
+                <div class="faq_item_title">
+                  <h4>What is seven star?</h4>
+                  <img
+                    class="open_faq_btn"
+                    src="./assets/icons/plus.svg"
+                    alt=""
+                  />
+                  <img
+                    class="close_faq_btn"
+                    src="./assets/icons/minus.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="faq_item_content">
+                  <p>
+                    Seven Star offers a variety of investment options, including
+                    stocks, bonds, mutual funds, real estate, and retirement
+                    accounts.
+                  </p>
+                </div>
+              </div>
+              <div class="faq_item">
+                <div class="faq_item_title">
+                  <h4>What investment options does Seven star offer?</h4>
+                  <img
+                    class="open_faq_btn"
+                    src="./assets/icons/plus.svg"
+                    alt=""
+                  />
+                  <img
+                    class="close_faq_btn"
+                    src="./assets/icons/minus.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="faq_item_content">
+                  <p>
+                    Seven Star offers a variety of investment options, including
+                    stocks, bonds, mutual funds, real estate, and retirement
+                    accounts.
+                  </p>
+                </div>
+              </div>
+              <div class="faq_item">
+                <div class="faq_item_title">
+                  <h4>
+                    How does Seven star ensure the security of my investments?
+                  </h4>
+                  <img
+                    class="open_faq_btn"
+                    src="./assets/icons/plus.svg"
+                    alt=""
+                  />
+                  <img
+                    class="close_faq_btn"
+                    src="./assets/icons/minus.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="faq_item_content">
+                  <p>
+                    Seven Star offers a variety of investment options, including
+                    stocks, bonds, mutual funds, real estate, and retirement
+                    accounts.
+                  </p>
+                </div>
+              </div>
+              <div class="faq_item">
+                <div class="faq_item_title">
+                  <h4>
+                    What sets Seven star apart from other investment companies?
+                  </h4>
+                  <img
+                    class="open_faq_btn"
+                    src="./assets/icons/plus.svg"
+                    alt=""
+                  />
+                  <img
+                    class="close_faq_btn"
+                    src="./assets/icons/minus.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="faq_item_content">
+                  <p>
+                    Seven Star offers a variety of investment options, including
+                    stocks, bonds, mutual funds, real estate, and retirement
+                    accounts.
+                  </p>
+                </div>
+              </div>
+              <div class="faq_item">
+                <div class="faq_item_title">
+                  <h4>
+                    How can I track the performance of my investments with Seven
+                    star?
+                  </h4>
+                  <img
+                    class="open_faq_btn"
+                    src="./assets/icons/plus.svg"
+                    alt=""
+                  />
+                  <img
+                    class="close_faq_btn"
+                    src="./assets/icons/minus.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="faq_item_content">
+                  <p>
+                    Seven Star offers a variety of investment options, including
+                    stocks, bonds, mutual funds, real estate, and retirement
+                    accounts.
+                  </p>
+                </div>
+              </div>
+              <div class="faq_item">
+                <div class="faq_item_title">
+                  <h4>
+                    What support and assistance can I expect from Seven star as
+                    an investor?
+                  </h4>
+                  <img
+                    class="open_faq_btn"
+                    src="./assets/icons/plus.svg"
+                    alt=""
+                  />
+                  <img
+                    class="close_faq_btn"
+                    src="./assets/icons/minus.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="faq_item_content">
+                  <p>
+                    Seven Star offers a variety of investment options, including
+                    stocks, bonds, mutual funds, real estate, and retirement
+                    accounts.
+                  </p>
+                </div>
+              </div>
+              <div class="faq_item">
+                <div class="faq_item_title">
+                  <h4>
+                    What are the key factors to consider before investing with
+                    Seven star?
+                  </h4>
+                  <img
+                    class="open_faq_btn"
+                    src="./assets/icons/plus.svg"
+                    alt=""
+                  />
+                  <img
+                    class="close_faq_btn"
+                    src="./assets/icons/minus.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="faq_item_content">
+                  <p>
+                    Seven Star offers a variety of investment options, including
+                    stocks, bonds, mutual funds, real estate, and retirement
+                    accounts.
+                  </p>
+                </div>
+              </div>
 
-          <div class="faq_content_title" style="margin-top: 30px">
-            <h3>Onboarding</h3>
-          </div>
+              <div class="faq_content_title" style="margin-top: 30px">
+                <h3>Onboarding</h3>
+              </div>
 
-          <div class="faq_item">
-            <div class="faq_item_title">
-              <h4>What is seven star?</h4>
-              <img class="open_faq_btn" src="./assets/icons/plus.svg" alt="" />
-              <img
-                class="close_faq_btn"
-                src="./assets/icons/minus.svg"
-                alt=""
-              />
-            </div>
-            <div class="faq_item_content">
-              <p>
-                Seven Star offers a variety of investment options, including
-                stocks, bonds, mutual funds, real estate, and retirement
-                accounts.
-              </p>
-            </div>
-          </div>
-          <div class="faq_item">
-            <div class="faq_item_title">
-              <h4>What investment options does Seven star offer?</h4>
-              <img class="open_faq_btn" src="./assets/icons/plus.svg" alt="" />
-              <img
-                class="close_faq_btn"
-                src="./assets/icons/minus.svg"
-                alt=""
-              />
-            </div>
-            <div class="faq_item_content">
-              <p>
-                Seven Star offers a variety of investment options, including
-                stocks, bonds, mutual funds, real estate, and retirement
-                accounts.
-              </p>
-            </div>
-          </div>
-          <div class="faq_item">
-            <div class="faq_item_title">
-              <h4>
-                How does Seven star ensure the security of my investments?
-              </h4>
-              <img class="open_faq_btn" src="./assets/icons/plus.svg" alt="" />
-              <img
-                class="close_faq_btn"
-                src="./assets/icons/minus.svg"
-                alt=""
-              />
-            </div>
-            <div class="faq_item_content">
-              <p>
-                Seven Star offers a variety of investment options, including
-                stocks, bonds, mutual funds, real estate, and retirement
-                accounts.
-              </p>
-            </div>
-          </div>
-          <div class="faq_item">
-            <div class="faq_item_title">
-              <h4>
-                What sets Seven star apart from other investment companies?
-              </h4>
-              <img class="open_faq_btn" src="./assets/icons/plus.svg" alt="" />
-              <img
-                class="close_faq_btn"
-                src="./assets/icons/minus.svg"
-                alt=""
-              />
-            </div>
-            <div class="faq_item_content">
-              <p>
-                Seven Star offers a variety of investment options, including
-                stocks, bonds, mutual funds, real estate, and retirement
-                accounts.
-              </p>
-            </div>
-          </div>
-          <div class="faq_item">
-            <div class="faq_item_title">
-              <h4>
-                How can I track the performance of my investments with Seven
-                star?
-              </h4>
-              <img class="open_faq_btn" src="./assets/icons/plus.svg" alt="" />
-              <img
-                class="close_faq_btn"
-                src="./assets/icons/minus.svg"
-                alt=""
-              />
-            </div>
-            <div class="faq_item_content">
-              <p>
-                Seven Star offers a variety of investment options, including
-                stocks, bonds, mutual funds, real estate, and retirement
-                accounts.
-              </p>
-            </div>
-          </div>
-          <div class="faq_item">
-            <div class="faq_item_title">
-              <h4>
-                What support and assistance can I expect from Seven star as an
-                investor?
-              </h4>
-              <img class="open_faq_btn" src="./assets/icons/plus.svg" alt="" />
-              <img
-                class="close_faq_btn"
-                src="./assets/icons/minus.svg"
-                alt=""
-              />
-            </div>
-            <div class="faq_item_content">
-              <p>
-                Seven Star offers a variety of investment options, including
-                stocks, bonds, mutual funds, real estate, and retirement
-                accounts.
-              </p>
-            </div>
-          </div>
-          <div class="faq_item">
-            <div class="faq_item_title">
-              <h4>
-                What are the key factors to consider before investing with Seven
-                star?
-              </h4>
-              <img class="open_faq_btn" src="./assets/icons/plus.svg" alt="" />
-              <img
-                class="close_faq_btn"
-                src="./assets/icons/minus.svg"
-                alt=""
-              />
-            </div>
-            <div class="faq_item_content">
-              <p>
-                Seven Star offers a variety of investment options, including
-                stocks, bonds, mutual funds, real estate, and retirement
-                accounts.
-              </p>
+              <div class="faq_item">
+                <div class="faq_item_title">
+                  <h4>What is seven star?</h4>
+                  <img
+                    class="open_faq_btn"
+                    src="./assets/icons/plus.svg"
+                    alt=""
+                  />
+                  <img
+                    class="close_faq_btn"
+                    src="./assets/icons/minus.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="faq_item_content">
+                  <p>
+                    Seven Star offers a variety of investment options, including
+                    stocks, bonds, mutual funds, real estate, and retirement
+                    accounts.
+                  </p>
+                </div>
+              </div>
+              <div class="faq_item">
+                <div class="faq_item_title">
+                  <h4>What investment options does Seven star offer?</h4>
+                  <img
+                    class="open_faq_btn"
+                    src="./assets/icons/plus.svg"
+                    alt=""
+                  />
+                  <img
+                    class="close_faq_btn"
+                    src="./assets/icons/minus.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="faq_item_content">
+                  <p>
+                    Seven Star offers a variety of investment options, including
+                    stocks, bonds, mutual funds, real estate, and retirement
+                    accounts.
+                  </p>
+                </div>
+              </div>
+              <div class="faq_item">
+                <div class="faq_item_title">
+                  <h4>
+                    How does Seven star ensure the security of my investments?
+                  </h4>
+                  <img
+                    class="open_faq_btn"
+                    src="./assets/icons/plus.svg"
+                    alt=""
+                  />
+                  <img
+                    class="close_faq_btn"
+                    src="./assets/icons/minus.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="faq_item_content">
+                  <p>
+                    Seven Star offers a variety of investment options, including
+                    stocks, bonds, mutual funds, real estate, and retirement
+                    accounts.
+                  </p>
+                </div>
+              </div>
+              <div class="faq_item">
+                <div class="faq_item_title">
+                  <h4>
+                    What sets Seven star apart from other investment companies?
+                  </h4>
+                  <img
+                    class="open_faq_btn"
+                    src="./assets/icons/plus.svg"
+                    alt=""
+                  />
+                  <img
+                    class="close_faq_btn"
+                    src="./assets/icons/minus.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="faq_item_content">
+                  <p>
+                    Seven Star offers a variety of investment options, including
+                    stocks, bonds, mutual funds, real estate, and retirement
+                    accounts.
+                  </p>
+                </div>
+              </div>
+              <div class="faq_item">
+                <div class="faq_item_title">
+                  <h4>
+                    How can I track the performance of my investments with Seven
+                    star?
+                  </h4>
+                  <img
+                    class="open_faq_btn"
+                    src="./assets/icons/plus.svg"
+                    alt=""
+                  />
+                  <img
+                    class="close_faq_btn"
+                    src="./assets/icons/minus.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="faq_item_content">
+                  <p>
+                    Seven Star offers a variety of investment options, including
+                    stocks, bonds, mutual funds, real estate, and retirement
+                    accounts.
+                  </p>
+                </div>
+              </div>
+              <div class="faq_item">
+                <div class="faq_item_title">
+                  <h4>
+                    What support and assistance can I expect from Seven star as
+                    an investor?
+                  </h4>
+                  <img
+                    class="open_faq_btn"
+                    src="./assets/icons/plus.svg"
+                    alt=""
+                  />
+                  <img
+                    class="close_faq_btn"
+                    src="./assets/icons/minus.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="faq_item_content">
+                  <p>
+                    Seven Star offers a variety of investment options, including
+                    stocks, bonds, mutual funds, real estate, and retirement
+                    accounts.
+                  </p>
+                </div>
+              </div>
+              <div class="faq_item">
+                <div class="faq_item_title">
+                  <h4>
+                    What are the key factors to consider before investing with
+                    Seven star?
+                  </h4>
+                  <img
+                    class="open_faq_btn"
+                    src="./assets/icons/plus.svg"
+                    alt=""
+                  />
+                  <img
+                    class="close_faq_btn"
+                    src="./assets/icons/minus.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="faq_item_content">
+                  <p>
+                    Seven Star offers a variety of investment options, including
+                    stocks, bonds, mutual funds, real estate, and retirement
+                    accounts.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

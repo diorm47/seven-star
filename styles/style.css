@@ -17,12 +17,61 @@
 body {
   font-family: "Montserrat", sans-serif;
   background: #0c0b10;
-
 }
 .page_content_wrapper {
-  background-size: cover;
   position: relative;
-  background:  url(../assets/images/stars.svg);
+  background: url(../assets/images/stars.svg);
+  background-size: cover;
+}
+.login_containerr {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+.login_oil {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 80px;
+}
+.login_gr .page_content {
+  background: radial-gradient(
+    57% 42% at 50% 1%,
+    rgba(11, 11, 16, 0) 29.811%,
+    rgb(11, 11, 16) 112%
+  );
+}
+.oil_wind_collection {
+  position: relative;
+  width: 100%;
+  max-width: 620px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contacts_wrapper {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.oil_wind_collection .oil_img {
+  width: 100%;
+  z-index: 1;
+  top: 230px;
+}
+.oil_wind_collection .wind_img {
+  top: -120px;
+}
+.oil_wind_collection .rect_block {
+  top: 230px;
+}
+
+.login_oil img {
+  width: 1000px;
 }
 a {
   text-decoration: none;
@@ -52,6 +101,7 @@ nav {
     rgba(11, 11, 16, 0) 28.811%,
     rgb(11, 11, 16) 100%
   );
+  z-index: 2;
 }
 
 .rays {
@@ -408,15 +458,33 @@ nav {
   box-shadow: inset 0px 0px 23.2px -9px rgb(49, 58, 84);
   backdrop-filter: blur(9.7px);
   background: linear-gradient(
-      134.66deg,
-      rgba(172, 196, 251, 0.2) 4.448%,
-      rgba(101, 118, 158, 0.2) 31.64%,
-      rgba(56, 66, 89, 0.2) 90.319%
-    ),
-    url(../assets/images/daily-bg.png);
+    134.66deg,
+    rgba(172, 196, 251, 0.2) 4.448%,
+    rgba(101, 118, 158, 0.2) 31.64%,
+    rgba(56, 66, 89, 0.2) 90.319%
+  );
 
-  background-size: cover;
   margin-bottom: 35px;
+  position: relative;
+  overflow: hidden;
+  display: none;
+}
+.daily_block_active {
+  display: block;
+}
+.daily_line {
+  position: absolute;
+  top: 50px;
+  left: -40px;
+}
+.daily_star {
+  position: absolute;
+  width: 200px;
+  top: -20px;
+  right: -20px;
+}
+.daily_blocks_list {
+  width: 100%;
 }
 
 .main_text {
@@ -688,6 +756,24 @@ nav {
   letter-spacing: 0%;
   text-align: left;
 }
+.live_depos_title button {
+  background: linear-gradient(90deg, rgb(193, 168, 117), rgb(76, 88, 119));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  padding: 5px 10px;
+  border: 1px solid rgb(193, 168, 117);
+  border-radius: 4px;
+}
+.live_depos_title button:hover {
+  font-weight: 600;
+}
 .live_depos_title span {
   cursor: pointer;
 }
@@ -861,6 +947,7 @@ nav {
 footer {
   margin-top: 60px;
   padding-bottom: 50px;
+  position: relative;
 }
 .footer_wrapper {
   display: flex;
@@ -906,7 +993,6 @@ footer {
   top: 150px;
   width: 150%;
   z-index: 1;
-
 }
 .wind_img {
   position: absolute;
@@ -1609,7 +1695,19 @@ nav {
   .page_content {
     width: 100%;
     position: relative;
-    background: radial-gradient(57% 42% at 50% 1%, rgba(11, 11, 16, 0) -82.189%, rgb(11, 11, 16) 100%);
-}
-
+    background: radial-gradient(
+      57% 42% at 50% 1%,
+      rgba(11, 11, 16, 0) -82.189%,
+      rgb(11, 11, 16) 100%
+    );
+  }
+  .live_depos_title {
+    flex-direction: column;
+  }
+  .live_depos_title p {
+    display: none;
+  }
+  .login_containerr .rays {
+    top: -113px;
+  }
 }

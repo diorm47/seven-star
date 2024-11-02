@@ -159,33 +159,73 @@
                 <img src="./assets/icons/selected.svg" alt="selected" />
               </div>
             </div>
-
-            <div class="daily_block">
-              <div class="daily_block_percent">
-                <p>1.1 <span>%</span></p>
-              </div>
-              <div class="period_block">
-                <p class="main_text">Period</p>
-                <h3>14 days</h3>
-                <div class="per_term">
-                  <img src="./assets/icons/info.svg" alt="" />
-                  <p class="main_text">Accrual at the end of the term</p>
+            <div class="daily_blocks_list">
+              <div class="daily_block daily_block_active">
+                <div class="daily_block_percent">
+                  <p>1.1 <span>%</span></p>
                 </div>
-              </div>
-              <div class="min_max">
-                <div class="min_max_card">
-                  <img src="./assets/icons/min.svg" alt="" />
-                  <p class="main_text">Minimum</p>
-                  <h4>$50</h4>
+                <img class="daily_line" src="./assets/icons/daily.svg" alt="" />
+                <img
+                  class="daily_star"
+                  src="./assets/images/star 1.png"
+                  alt=""
+                />
+                <div class="period_block">
+                  <p class="main_text">Period</p>
+                  <h3>14 days</h3>
+                  <div class="per_term">
+                    <img src="./assets/icons/info.svg" alt="" />
+                    <p class="main_text">Accrual at the end of the term</p>
+                  </div>
                 </div>
-                <div class="min_max_card">
-                  <img src="./assets/icons/max.svg" alt="" />
-                  <p class="main_text">Maximum</p>
-                  <h4>$4999</h4>
+                <div class="min_max">
+                  <div class="min_max_card">
+                    <img src="./assets/icons/min.svg" alt="" />
+                    <p class="main_text">Minimum</p>
+                    <h4>$50</h4>
+                  </div>
+                  <div class="min_max_card">
+                    <img src="./assets/icons/max.svg" alt="" />
+                    <p class="main_text">Maximum</p>
+                    <h4>$4999</h4>
+                  </div>
                 </div>
+                <button class="open_dep">Open Deposit</button>
               </div>
-              <button class="open_dep">Open Deposit</button>
+              <div class="daily_block">
+                <div class="daily_block_percent">
+                  <p>2.1 <span>%</span></p>
+                </div>
+                <img class="daily_line" src="./assets/icons/daily.svg" alt="" />
+                <img
+                  class="daily_star"
+                  src="./assets/images/star 2.png"
+                  alt=""
+                />
+                <div class="period_block">
+                  <p class="main_text">Period</p>
+                  <h3>30 days</h3>
+                  <div class="per_term">
+                    <img src="./assets/icons/info.svg" alt="" />
+                    <p class="main_text">Accrual at the end of the term</p>
+                  </div>
+                </div>
+                <div class="min_max">
+                  <div class="min_max_card">
+                    <img src="./assets/icons/min.svg" alt="" />
+                    <p class="main_text">Minimum</p>
+                    <h4>$50</h4>
+                  </div>
+                  <div class="min_max_card">
+                    <img src="./assets/icons/max.svg" alt="" />
+                    <p class="main_text">Maximum</p>
+                    <h4>$4999</h4>
+                  </div>
+                </div>
+                <button class="open_dep">Open Deposit</button>
+              </div>
             </div>
+
             <div class="center_stats">
               <div class="center_stats_top">
                 <div class="center_stats_top_item">
@@ -241,7 +281,9 @@
             <div class="live_depos">
               <div class="live_depos_title">
                 <img src="./assets/icons/live.svg" alt="" />
-                <p><span>Live Last Deposits</span> / <span>Withdrawal</span></p>
+                <button>Live Last Deposits</button>
+                <p>/</p>
+                <button>Withdrawal</button>
               </div>
               <div class="depo_items_list">
                 <div class="depo_item">
@@ -389,18 +431,24 @@
         }
       });
 
-      // выбор 2
-      function selectTierMain(selectedItem) {
-        const items = document.querySelectorAll(".tiers_list_item");
+      // JavaScript для управления активными классами
+      document.querySelectorAll(".tiers_list_item").forEach((item, index) => {
+        item.addEventListener("click", () => {
+          // Удаляем активный класс со всех элементов
+          document
+            .querySelectorAll(".tiers_list_item")
+            .forEach((el) => el.classList.remove("tiers_list_item_active"));
+          document
+            .querySelectorAll(".daily_block")
+            .forEach((block) => block.classList.remove("daily_block_active"));
 
-        // Убираем активный класс со всех элементов
-        items.forEach((item) =>
-          item.classList.remove("tiers_list_item_active")
-        );
-
-        // Добавляем активный класс к выбранному элементу
-        selectedItem.classList.add("tiers_list_item_active");
-      }
+          // Добавляем активный класс к выбранному элементу и соответствующему блоку
+          item.classList.add("tiers_list_item_active");
+          document
+            .querySelectorAll(".daily_block")
+            [index].classList.add("daily_block_active");
+        });
+      });
     </script>
   </body>
 </html>
