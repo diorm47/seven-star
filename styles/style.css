@@ -999,6 +999,9 @@ footer {
   top: -300px;
   width: 680px;
 }
+.center_column {
+  padding-top: 50px;
+}
 nav {
   position: relative;
   z-index: 1;
@@ -1710,5 +1713,8 @@ nav {
   }
   .login_containerr .rays {
     top: -113px;
+  }
+  .center_column {
+    padding-top: 0;
   }
 }
