@@ -1564,7 +1564,8 @@ nav {
 }
 
 @keyframes blink {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(10px);
   }
   50% {
@@ -1572,8 +1573,48 @@ nav {
   }
 }
 
-.adv_card  img {
+.adv_card img {
   animation: blink 1.5s ease-in-out infinite;
+}
+
+.modal {
+  display: none; /* Скрыто по умолчанию */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон */
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+/* Стили для модального контента */
+.modal-content {
+  background: #1b1d2a;
+  padding: 20px;
+  padding-top: 40px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+  position: relative;
+}
+.modal-content iframe {
+ width: 100%;
+ border-radius: 10px;
+}
+
+/* Кнопка закрытия */
+.close-btn {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #aaa;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 1400px) {
@@ -1660,6 +1701,17 @@ nav {
 }
 
 @media only screen and (max-width: 500px) {
+  .modal-content{
+    width: 100%;
+    padding: 10px;
+    padding-top: 30px;
+  }
+  .modal-content iframe {
+    height: 200px;
+  }
+  .modal {
+    padding: 10px;
+  }
   .promo_video {
     width: 100%;
     height: 150px;

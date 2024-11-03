@@ -281,7 +281,7 @@
                   <div class="dest_block_title">
                     <h3>Promo</h3>
                   </div>
-                  <div class="promo_video">
+                  <div class="promo_video" onclick="openModal()">
                     <img src="./assets/icons/play.svg" alt="" />
                   </div>
                 </div>
@@ -472,7 +472,6 @@
                     <p class="main_text">4m ago</p>
                   </div>
                 </div>
-   
               </div>
             </div>
             <div class="calculator_blog">
@@ -524,6 +523,23 @@
             >
           </div>
         </footer>
+      </div>
+    </div>
+
+    <div class="modal" id="myModal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal()">&times;</span>
+        <div id="videoContainer">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/2WoDQBhJCVQ?enablejsapi=1"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
       </div>
     </div>
 
@@ -591,6 +607,31 @@
             [index].classList.add("depo_items_list_active");
         });
       });
+    </script>
+
+    <script>
+      // Функция для открытия модального окна
+      function openModal() {
+        document.getElementById("myModal").style.display = "flex";
+      }
+
+      // Функция для закрытия модального окна и остановки видео
+      function closeModal() {
+        document.getElementById("myModal").style.display = "none";
+        const videoContainer = document.getElementById("videoContainer");
+        const iframe = videoContainer.querySelector("iframe");
+
+        // Удаляем и снова добавляем iframe, чтобы остановить видео
+        videoContainer.innerHTML = iframe.outerHTML;
+      }
+
+      // Закрытие модального окна при клике вне его
+      window.onclick = function (event) {
+        const modal = document.getElementById("myModal");
+        if (event.target === modal) {
+          closeModal();
+        }
+      };
     </script>
   </body>
 </html>
